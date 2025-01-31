@@ -53,7 +53,7 @@ function List() {
                 <h1>Busca Meteorológica</h1>
             </header>
             <div id="busca">
-                <h3>Insira o nome da cidade</h3>
+                <h3>Insira o nome da cidade ↴</h3>
                 <input
                     type="text"
                     id="cidade-input"
@@ -68,6 +68,7 @@ function List() {
                 >
                     Fazer busca
                 </button>
+                
             </div>
             <div id="informacoes">
                 <h3 id="info-title">Informações climáticas da cidade:</h3>
@@ -81,6 +82,7 @@ function List() {
                     <h5 id="info-vento">{vento !== null ? `Vento: ${Math.trunc(vento)} km/h` : ''}</h5>
                 </div>  
             </div>
+            <a href="https://api.whatsapp.com/send?phone=+553197234480&text=teste" target="_blank">Estamos no WhatsApp</a>
         </div>
     );
 }
